@@ -31,3 +31,10 @@ docker run -p 4200:8080 --rm -it angularsample:latest
 # Interactive shell session into the container. Useful when you want to debug the container
 docker run -p 4200:8080 --rm -it --entrypoint /bin/sh angularsample:latest
 ```
+
+## Resources
+
+* `nginx`: nginx config
+* `Dockerfile`: Multibuild Docker file
+* `.dockerignore`: Docker ignore file
+* `package.json`: Added `buildprod` for the production build
